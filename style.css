@@ -57,36 +57,12 @@ footer {
     bottom: 5px;
     width: 90%;
 }
-nav {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-nav a:not(:last-child) {
-    position: relative;
-    margin-right: 1em;
-}
-nav a:not(:last-child):after {
-    position: absolute;
-    right: -0.6em;
-    color: #833;
-    content: "|";
-}
-.content {
-    transition: 0.5s ease;
-    opacity: 0;
-    margin: 0;
-}
-.content.active {
-    opacity: 1;
-}
 
-.content:not(.active) * {
-    display: none;
+.warning-container {
+    margin: 10px auto;
 }
-
-#content-about p {
-    text-align: center;
+.warning-text {
+    display: block;
 }
 
 a:hover {
