@@ -59,7 +59,10 @@ footer {
 }
 
 .warning-container {
-    margin: 10px auto;
+    margin: 40px 0;
+    font-size: 28px;
+    text-align: center:
+    color: gold;
 }
 .warning-text {
     display: block;
